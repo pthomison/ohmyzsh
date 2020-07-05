@@ -1,7 +1,7 @@
 # Sublime Text aliases
 
 alias st=subl
-alias stt='subl .'
+alias stt='subl . -a'
 
 # Define sst only if sudo exists
 (( $+commands[sudo] )) && alias sst='sudo subl'
